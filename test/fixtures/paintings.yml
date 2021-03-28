@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  painting_id: 1
+  painting_name: MyString
+  painting_image: MyString
+
+two:
+  painting_id: 1
+  painting_name: MyString
+  painting_image: MyString
