@@ -13,7 +13,6 @@
 ActiveRecord::Schema.define(version: 2021_04_01_113932) do
 
   create_table "paintings", force: :cascade do |t|
-    t.integer "painting_id"
     t.string "painting_name"
     t.string "painting_image"
     t.datetime "created_at", null: false
