@@ -32,6 +32,8 @@ gem 'jbuilder', '~> 2.5'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'carrierwave',             '1.2.2'
+gem 'mini_magick',             '4.7.0'
 
 group :development, :test do
   gem 'sqlite3', '1.4.1'
@@ -65,6 +67,7 @@ end
 
 group :production do
   gem 'pg', '1.1.4'
+  gem 'fog', '1.42'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
